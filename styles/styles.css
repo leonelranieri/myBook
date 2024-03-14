@@ -1,0 +1,291 @@
+body {
+    background-color: rgb(85, 84, 90);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: rgb(168, 194, 22);
+    text-align: center;
+}
+
+#header {
+    background-color: rgb(96, 117, 131);
+    max-width: 1350px; /* Ancho máximo del encabezado */
+    max-height: 250px;
+    margin: 0 auto; /* Centra el encabezado horizontalmente */
+    margin-top: 30px;
+    padding: 10px; /* Espaciado interno del encabezado */
+    border: 2px solid #999; /* Borde del encabezado */
+    border-radius: 15%;
+    text-align: center; /* Centra el texto dentro del encabezado */
+}
+
+h1{
+    padding: 45px;
+    font-size: 250%;
+  }
+
+.lista{
+    display: inline-block;
+    list-style-type: none;
+    padding: 50px;
+    margin: 25px;
+  }
+
+  .lista li {
+    display: inline;
+    margin: 75px; /* Ajusta el espacio entre los elementos de la lista según tu preferencia */ 
+  }
+
+  .lista li a {
+    color: rgb(187, 184, 14); /* Color inicial */
+    text-decoration: none; /* Quita el subrayado */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+    font-size: 25px;
+    cursor: pointer; /* Cambia el cursor */
+    position: relative;
+    top: -30px;
+  }
+  .lista li a:hover {
+    color: rgb(96, 3, 114); /* Color al pasar el mouse sobre el enlace */
+
+  }
+  .lista li a:visited {
+    color: rgb(42, 34, 116); /* Color después de hacer click */
+  }
+
+  #aboutMe {
+    border: 2px solid rgb(4, 57, 128);
+    background-color: rgb(139, 150, 150);
+    border-radius: 15%;
+    margin-top: 10px;
+  }
+
+  #aboutMe #article1 #forma {
+    background-color: rgb(96, 117, 131);
+    max-width: 750px; /* Ancho máximo del encabezado */
+    max-height: 350px;
+    margin-top: 30px;
+    padding: 10px; /* Espaciado interno del encabezado */
+    border: 1px solid #999; /* Borde del encabezado */
+    border-radius: 15%;
+    margin-left: 935px;
+    margin-top: 80px;
+  }
+
+  #subArticle1 {
+    margin-right: 150px;
+    margin-top: -350px; 
+  }
+
+  #h1Leo {
+    font-size: 80px;
+    position: relative;
+    top: -130px; /* Puedes ajustar este valor según cuánto deseas mover el elemento hacia arriba */
+    color: blueviolet;
+}
+
+  #imgLeo {
+    margin-right: 850px;
+    margin-top: -350px;
+    width: 200px; /* Cambia este valor según el tamaño deseado */
+    height: auto; /* Esto asegura que la imagen mantenga su proporción original */
+}
+
+#article2 {
+  font-size: 1.2em;
+  width: 500px;
+  position: relative;
+  left: 380px;
+  top: -80px;
+  color: blueviolet;
+}
+
+#techFav {
+  font-size: 75px;
+  position: relative;
+  width: 900px;
+  height: 300px;
+  bottom: 5px;
+  right: -250px;
+  color: darkorange; 
+  border: 2px solid rgb(99, 0, 0);
+  border-radius: 15%;
+  background-color: rgb(116, 122, 122);
+}
+
+.listaTech {
+  list-style: none; /* Quita los puntos de lista */
+  padding: 0; /* Elimina el relleno predeterminado */
+  text-align: center; /* Para centrar los elementos hijos */
+}
+
+.listaTech li {
+  display: inline-block; /* Para que los elementos sean mostrados en línea */
+  margin: 0 10px; /* Margen horizontal entre los elementos */
+}
+
+#imgJava,
+#imgHTML,
+#imgCSS {
+  width: 80px; /* Ancho de cada elemento */
+  height: 80px; /* Altura de cada elemento */
+  position: relative;
+  bottom: -1180px;
+}
+
+#actFav {
+  text-align: center;
+  padding: 20px;
+  height: 1900px;
+  background-color: #516881;
+  border: 2px solid rgb(2, 2, 49);
+  border-radius: 15%;
+}
+
+.container {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#article {
+  margin-bottom: 20px;
+}
+
+#form {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative; /* Añade posición relativa para que los elementos absolutos se posicionen en relación con este */
+  padding: 20px; /* Añade relleno para evitar que el contenido se superponga con la imagen de fondo */
+  bottom: 1150px;
+  color: #041d38;
+}
+
+#formaCirc {
+  /* width: 750px;
+  height: 750px; */
+  position: relative;
+  top: -150%;
+  opacity: 0.1;
+}
+
+#article h2 {
+  position: relative;
+  bottom: 1155px;
+  font-size: 170%;
+  color: rgb(158, 6, 39);
+}
+
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative; /* Añade posición relativa para que el botón pueda ser posicionado con respecto a este */
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 2px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+}
+
+#addButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  position: absolute; /* Posiciona el botón de manera absoluta */
+  bottom: 5px; /* Lo fija en la parte inferior del fieldset */
+  left: 50%; /* Lo mueve hacia la mitad del fieldset */
+  transform: translateX(-50%); /* Centra horizontalmente el botón */
+  padding: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.containerCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.containerCards {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative; /* Añade posición relativa para que los elementos absolutos se posicionen en relación con este */
+  padding: 20px; /* Añade relleno para evitar que el contenido se superponga con la imagen de fondo */
+  bottom: 1150px;
+  color: #041d38;
+  display: flex; /* Usamos flexbox para alinear los elementos en línea */
+  flex-wrap: wrap; /* Permitimos que los elementos se envuelvan cuando no hay suficiente espacio */
+  justify-content: space-around; /* Distribuye el espacio sobrante alrededor de las tarjetas */
+}
+
+.titleCard {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.paragraphCard {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.imageCard {
+  width: 90%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.divCard {
+  border: 1px solid #02b80b;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 0 0 calc(33.33% - 20px); /* Calcula el ancho de cada tarjeta para que haya tres tarjetas por fila */
+  margin: 10px; /* Agrega un pequeño margen entre las tarjetas */
+}
+
+.deleteBoton {
+  width: 50px;
+  height: 10xp;
+  background-color: #cc19bd;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer {
+  height: 20px;
+}
+

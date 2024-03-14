@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <!-- <link rel="stylesheet" href="./styles/normalize.css"> -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body id="body">
+    <header id="header">
+      <h1>Mi presentación</h1>
+      <nav id="nav">
+        <ul class="lista">
+          <li><a href="#techFav">Tecnologías Favoritas</a></li>
+          <li><a href="#aboutMe">Sobre mí</a></li>
+          <li><a href="#actFav">Actividades Favoritas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="aboutMe">
+        <article id="article1">
+          <img
+            src="./assets/img/cat-8185712_640.jpg"
+            alt="forma"
+            id="forma"
+          />
+          <article id="subArticle1">
+            <h1 id="h1Leo">Hola! Soy Leo!🤗</h1>
+          </article>
+          <img
+            id="imgLeo"
+            src="./assets/img/WIN_20230726_22_09_14_Pro.jpg"
+            alt="leo"
+          />
+        </article>
+
+        <article id="article2">
+          <h2>Sobre Mí</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            possimus enim molestias soluta consequuntur voluptas tempora aperiam
+            perferendis neque quibusdam? Ipsam distinctio earum repudiandae
+            provident obcaecati. Asperiores deserunt ipsum provident.
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <section id="techFav">
+        <article id="art"><h2 id="h2Tech">Mis tecnologías favoritas</h2></article>
+
+        <div class="containerCards">
+          <ul class="listaTech">
+            <li><img id="imgJava" src="./assets/img/js.png" alt="Javascript" /></li>
+            <li><img id="imgHTML" src="./assets/img/html.png" alt="HTML" /></li>
+            <li><img id="imgCSS" src="./assets/img/css.png" alt="CSS" /></li>
+          </ul>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="actFav">
+        <div>
+          <img id="formaCirc" src="./assets/img/—Pngtree—easy frame colored for decorate_5320952.png" alt="forma" />
+          <article id="article">
+            <h2>Mis actividades favoritas</h2>
+          </article>
+
+          <form id="form">
+            <fieldset>
+              <img src="./assets/img/form.png" alt="forma2" />
+              <legend>Crea tu actividad favorita</legend>
+
+              <label for="title"> Título:</label>
+              <input type="text" id="title" placeholder="Crea un título..." />
+
+              <label for="image"> Imagen:</label>
+              <input type="url" id="image" placeholder="URL de imagen" />
+
+              <label for="description"> Descripción:</label>
+              <textarea
+                id="description"
+                placeholder="Describe la actividad"
+                cols="30"
+                rows="5"
+              ></textarea>
+
+              <button id="addButton">Crear Actividad</button>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="containerCards" id="divContainerCards"></div>
+      </section>
+    </main>
+
+    <hr />
+
+    <footer class="footer"><p>&copy;2024 - Mi Presentación</p></footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
